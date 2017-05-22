@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Proportion of single young females (20-34 years) in Switzerland</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
+  <link rel="stylesheet" href="static/style.css"/>
+</head>
+<body>
+  <div id="mapdiv"></div>
+
+  <!-- Module d3.js -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+  <!-- Module Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+
+  <!-- Classybrew permettant de faire la mise en classe ainsi que le coloriage de la carte -->
+  <script src="https://cdn.rawgit.com/christiankaiser/classybrew/b8ca77d5a6b7eef5586f5148c36ee937aa1bacfb/build/classybrew.min.js"></script>
+
+  <!-- D3 SVG Overlay -->
+  <script src="https://cdn.rawgit.com/christiankaiser/Leaflet.D3SvgOverlay/master/dist/L.D3SvgOverlay.min.js"></script>
+
+  <!-- Proj4js for coordinate projection -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.3/proj4.js"></script>
+
+  <!-- Lien vers le script .js -->
+  <script src="static/index.js"></script>
+
+  <!-- Run the script once everything is loaded -->
+  <script>(function(){ main(); })();</script>
+
+</body>
+</html>
