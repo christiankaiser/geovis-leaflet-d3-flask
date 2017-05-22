@@ -16,8 +16,6 @@ Par la suite, il suffit de lancer `python app/app.py` depuis l'intérieur de ce 
 
 ## TODO
 
-- Mettre les couches PostGIS dans un cache, à la fois pour les GeoJson et TopoJson. Ceci permettrait de réduire grandement le temps de chargemetn.
-
 - Implémenter la mise en classe par Jenks dans le serveur Flask, et mettre les limites de classes en cache. Ceci éviterait de faire la mise en classe dans le navigateur.
 
 - Ajouter une légende digne de ce nom
